@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Video View (or Player View) -->
+    <VideoView
+        android:id="@+id/reelVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/reelCaption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@android:color/transparent" />
+
+    <!-- Overlay Buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end|center_vertical"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Like Button -->
+
+        <!-- Comment Button -->
+        <ImageButton
+            android:id="@+id/likeButton"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="480dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:contentDescription="Like"
+            android:src="@drawable/ic_like" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="900"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+        <ImageButton
+            android:id="@+id/commentButton"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="3dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_comment"
+            android:contentDescription="Comment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+        <!-- Share Button -->
+        <ImageButton
+            android:id="@+id/shareButton"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_share"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Share" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="left">
+
+            <!-- Profile Picture -->
+            <ImageView
+                android:id="@+id/profilePicture"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/the_gardens"
+                android:contentDescription="Profile Picture" />
+
+            <!-- Username -->
+            <TextView
+                android:id="@+id/reelCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Gardens"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:background="@android:color/transparent" />
+
+            <!-- Buy now button -->
+            <Button
+                android:id="@+id/buyNowButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Now"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp" />
+
+        </LinearLayout>
+</FrameLayout>

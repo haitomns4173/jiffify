@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Jiffy</string>
+    <string name="title_home">Home</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_reels">Reels</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_games">Games</string>
+    <string name="title_restaurants">Restaurants</string>
+    <string name="title_menu_item">Menu Item</string>
+    <string name="title_profile">Profile</string>
+    <string name="good_morning">Good Morning,</string>
+    <string name="foodie_food">Foodie Food</string>
+    <string name="don_t_know_what_to_eat">Don\'t know what to eat,</string>
+    <string name="code_cartel">Code Cartel</string>
+    <string name="offers">Offers</string>
+    <string name="trending">Trending</string>
+    <string name="our_restaurants">Our Restaurants</string>
+    <string name="categories">Categories</string>
+    <string name="orders_history">Orders History</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="view_orders">View Orders</string>
+    <string name="jiffy_coins">Jiffy Coins</string>
+    <string name="lets_play">Lets Play...</string>
+    <string name="russian_roulette">Russian Roulette</string>
+    <string name="player_1">Player 1</string>
+    <string name="select_mood">Select Mood</string>
+    <string name="select_weather">Select Weather</string>
+    <string name="select_hunger_level">Select Hunger Level</string>
+    <string name="select_food_type">Select Food Type</string>
+    <string name="get_recommendations">Get Recommendations</string>
+    <string name="we_will_say_you_what_to_eat">We will say you what to eat,</string>
+    <string name="add_to_cart">Add to Cart</string>
+</resources>

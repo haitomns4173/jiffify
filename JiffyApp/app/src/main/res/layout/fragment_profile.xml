@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow_background"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/plus_jakarta_sans_extrabold"
+        android:text="My Profile"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/plus_jakarta_sans_light"
+        android:text="@string/code_cartel"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/the_gardens"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________________"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/material_button_with_icon"
+        app:layout_constraintEnd_toEndOf="@+id/material_button_with_icon"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/material_button_with_icon"
+        app:layout_constraintTop_toTopOf="@+id/material_button_with_icon"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_button_with_icon"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:padding="10dp"
+        app:cornerRadius="50dp"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:text="@string/edit_profile"
+        app:icon="@drawable/profile"
+        app:iconTint="@color/black"
+        app:iconSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewOrders"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="108dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="@string/view_orders"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/orders"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________________"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/viewOrders"
+        app:layout_constraintEnd_toEndOf="@+id/viewOrders"
+        app:layout_constraintStart_toStartOf="@+id/viewOrders"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________________________________________________"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@+id/material_button_with_icon3"
+        app:layout_constraintEnd_toEndOf="@+id/material_button_with_icon3"
+        app:layout_constraintStart_toStartOf="@+id/material_button_with_icon3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_button_with_icon3"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="188dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="@string/jiffy_coins"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/coins"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_button_with_icon4"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="268dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:text="Logout"
+        android:textColor="@color/black"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/logout"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

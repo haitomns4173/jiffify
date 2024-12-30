@@ -1,0 +1,71 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f68a14">
+
+    <ImageView
+        android:id="@+id/center_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gun"
+        android:layout_centerInParent="true"
+        android:contentDescription="Gun Image" />
+
+    <!-- Welcome text at the top -->
+
+    <!-- Buttons at the bottom -->
+
+    <TextView
+        android:id="@+id/game_status"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="18dp"
+        android:background="#88000000"
+        android:padding="12dp"
+        android:text="Welcome to Russian Roulette
+!"
+        android:textColor="#E47022"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp">
+
+        <Button
+            android:id="@+id/spin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spin Cylinder"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#E47022"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/pull_trigger_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pull Trigger"
+            android:enabled="false"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#780606"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Game"
+            android:backgroundTint="#AC8C74"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</RelativeLayout>

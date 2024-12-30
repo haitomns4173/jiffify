@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FDEBF7">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <!-- Wheel Image -->
+        <ImageView
+            android:id="@+id/wheelImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/spinwheel"
+            android:layout_gravity="center" />
+
+        <!-- Pointer -->
+        <ImageView
+            android:id="@+id/pointer"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/pointer_shape"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp" />
+    </FrameLayout>
+
+    <!-- Spin Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/spinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spin the Wheel"
+        app:cornerRadius="50dp"
+        android:layout_marginTop="20dp" />
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:gravity="center" />
+</LinearLayout>

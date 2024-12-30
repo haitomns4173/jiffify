@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow_background"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/bro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/plus_jakarta_sans_extrabold"
+        android:text="@string/our_restaurants"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/theGardensMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/plus_jakarta_sans_extrabold"
+        android:text="@string/categories"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theGardensMenu" />
+
+    <ImageButton
+        android:id="@+id/theGardensMenu"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="76dp"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/the_gardens"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dum_biriyani"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/doko"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/getStartedButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/yellow_button"
+        android:backgroundTint="#FF9800"
+        android:padding="12dp"
+        android:text="Tacos"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/getStartedButton3"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/getStartedButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/light_yellow_button"
+        android:backgroundTint="#FF9800"
+        android:padding="12dp"
+        android:text="Burger"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/getStartedButton3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/getStartedButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/getStartedButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/yellow_button"
+        android:backgroundTint="#FF9800"
+        android:padding="12dp"
+        android:text="Mo:Mo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/getStartedButton4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/getStartedButton2"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/yellow_button"
+        android:backgroundTint="#FF9800"
+        android:padding="12dp"
+        android:text="Pizza"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/getStartedButton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        app:layout_constraintTop_toBottomOf="@+id/getStartedButton"
+        android:paddingTop="10dp"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/menuItem"
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/food_menu"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                tools:layout_editor_absoluteX="12dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

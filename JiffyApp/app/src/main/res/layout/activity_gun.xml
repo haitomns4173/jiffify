@@ -1,0 +1,85 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f68a14">
+
+    <ImageView
+        android:id="@+id/gunImage"
+        android:layout_width="408dp"
+        android:layout_height="721dp"
+        android:contentDescription="Gun Image"
+        android:src="@drawable/gun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/game_status"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="#88000000"
+        android:padding="12dp"
+        android:text="Welcome to Russian Roulette!"
+        android:textAlignment="center"
+        android:textColor="#E47022"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gunImage" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/spin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#E47022"
+        android:text="Spin Cylinder"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pull_trigger_button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#780606"
+        android:enabled="false"
+        android:text="Pull Trigger"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gunImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/reset_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="448dp"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        app:icon="@drawable/reset"
+        app:iconSize="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/pull_trigger_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.158"
+        app:tint="@color/white" />
+</androidx.constraintlayout.widget.ConstraintLayout >
