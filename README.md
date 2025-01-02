@@ -17,11 +17,9 @@ Jiffy is a food delivery platform and this app redesigns the current JIFFY APP a
 Java, Python, Gemini API, FastAPI, Sceneform, Google AR Core
 
 
+
 ## Screenshots
-
-![1735800502003](https://github.com/user-attachments/assets/ffe38f32-cf4f-4d9f-9551-50d54869d4a9)
-
-![1735800501999](https://github.com/user-attachments/assets/e2d9d66e-4775-41dc-af9f-f5a210b29415)
+![1735800935363](https://github.com/user-attachments/assets/23f0acc8-5737-46da-af7b-3c0b27e3ec71)
 
 
 ## Deployment
