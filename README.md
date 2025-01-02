@@ -36,6 +36,7 @@ Import the given environment to you Anaconda.
 
 - [@haitomns4173](https://github.com/haitomns4173/)
 - [@RUBY-DANGOL](https://github.com/RUBY-DANGOL)
+- [@santit23](https://github.com/santit23)
 - [@AshutoshGajraj](https://github.com/AshutoshGajraj)
 - [@krishna09-dev](https://github.com/krishna09-dev)
 
