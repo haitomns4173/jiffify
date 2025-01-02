@@ -19,6 +19,9 @@ Java, Python, Gemini API, FastAPI, Sceneform, Google AR Core
 
 ## Screenshots
 
+![1735800502003](https://github.com/user-attachments/assets/ffe38f32-cf4f-4d9f-9551-50d54869d4a9)
+
+![1735800501999](https://github.com/user-attachments/assets/e2d9d66e-4775-41dc-af9f-f5a210b29415)
 
 
 ## Deployment
@@ -28,6 +31,8 @@ To use the AI Recommendation Feature, you neeed to have the Gemini API Key, Plac
 ```bash
   os.environ['GOOGLE_API_KEY'] = "YOUR-API-KEY"
 ```
+
+Import the given environment to you Anaconda. 
 
 ## Developers
 
